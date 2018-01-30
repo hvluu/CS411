@@ -3,6 +3,26 @@ int fact(int x) {
   if (x>1) return x * fact(x-1);
   else return 1;
 }
+int gcd(int u, int v) {
+   if (v==0) return u;
+else return gcd(v, u-u/v*v);
+   /* u-u/v*v == u mod v */
+}
+void sort(int a[], int low, int high) {
+   int i; int k;
+  i = low;
+  while (i<high-1) {
+      int t;
+      k = minloc(a,i,high);
+      t = a[k];
+      a[k] = a[i];
+      a[i] = t;
+      i = i + 1;
+  }
+}
+/* this is
+   a multi
+line comment */
 void main () {
 /* Winter Quarter 2018
 CS 411 project#1
@@ -17,12 +37,41 @@ A lexical analyzer */
 class cs411 {
   int Funny;
   double funny;
+  double orNothing;
   boolean flag;
   string s;
+  string johnny = "Johnny!";
   int [] a;
   flag = true;
   Funny = 0X89aB; funny = 123456E+7;
   s = "hello world";
   while (x = (Funny/10) <0) println (s, "have fun!");
   a = newarray (20,int);
+  if(23void<>14) 
+    System.exit(0);
+  print_line(1+.23*1.2e+3);
+  int sum = 0;
+  for (int i=0; i<=10; i++)
+    sum += i;
+   // comment here /* and there
+  else extends for if implements int
+  interface newarray println readln
+  return;
+  void while;
+  hello = "salutations";
+  Hello = "a different greeting than hello";
+  inintvoid
+  if(23void
+  100
+  00450
+  0x05F
+  0x05G
+  .12
+  12.2E+2
+  _ISinvalid .12E+2
+  12.e+2
+  12.E+2
+  true
+  false
+  + - * / % < <= > >= == != = ; , . ( ) [ ] { }
 }
