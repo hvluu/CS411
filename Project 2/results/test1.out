@@ -1,0 +1,13 @@
+
+int [shift]
+test [reduce 10][shift]
+( [shift]
+int [shift]
+x [reduce 10][shift]
+, [reduce 9][reduce 21][reduce 18][shift]
+int [shift]
+y [reduce 10][shift]
+) [reduce 9][reduce 20][reduce 18][shift]
+{ [shift][reduce 40][shift]
+; [reduce 90][reduce 63][reduce 51][shift]
+} [reduce 43][reduce 42][reduce 41][shift][reduce 38][reduce 16][reduce 5][reduce 3][reduce 1][shift]

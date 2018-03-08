@@ -1,0 +1,8 @@
+
+interface [shift]
+compare [shift]
+{ [shift]
+x [shift]
+= Syntax error at character 2 of input
+Couldn't repair and continue parse at character 2 of input
+Exception while parsing

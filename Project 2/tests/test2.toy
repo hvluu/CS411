@@ -1,0 +1,25 @@
+// Correct Toy Syntax 
+int why(int a, int b) {
+	test = test * 100;
+}
+
+double distance(int a, int b) {
+	int x;
+	int y;
+	test = test * y;
+	x = 10 + 15;
+	y = x - 90;
+	x = - 90;
+	y = y % 900;
+	return sqrt(a * b);
+}
+
+class Point implements cookie, monster {
+	int y;
+
+	void hateYou(string justKidding) {
+		while (y > 15) {
+			println("Nothing of consequence here");
+		}
+	}
+}

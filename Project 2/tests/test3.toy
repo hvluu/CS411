@@ -1,0 +1,35 @@
+interface compare
+{ x = 6;}
+class foo implements compare {
+   int y = 3;
+   if (y < 100)
+      y++;
+   else y = 3;
+   println("y = " + y);
+   for(int i = 0; i < x; i++)
+      readln();
+}
+int mainz{
+   return newarray[];
+   break;}
+class main extends foo
+{
+   "hello id int main;
+   class "noaudosd"
+   if IF;
+   hello Hello;
+   while(int11void;
+   newarray[] = {8,012,0x0, 0x1Ff12};
+   double newd = 0.12;
+   newd = .12; newd = 12.;
+   newd = 12.2E+3;
+   .12E-00;
+// commenting
+/*block
+comment
+*/
+   while(x == true)
+      println("loop");
+true != false;
+10%3 > 15;
+}

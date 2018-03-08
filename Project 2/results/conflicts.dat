@@ -1,0 +1,50 @@
+Warning : *** Reduce/Reduce conflict found in state #64
+  between Lvalue ::= t_id (*)
+  and     Type ::= t_id (*)
+  under symbols: {t_leftbracket}
+  Resolved in favor of the second production.
+
+Warning : *** Shift/Reduce conflict found in state #64
+  between Lvalue ::= t_id (*)
+  and     Call ::= t_id (*) t_period t_id t_leftparen Actuals t_rightparen
+  under symbol t_period
+  Resolved in favor of shifting.
+
+Warning : *** Shift/Reduce conflict found in state #64
+  between Lvalue ::= t_id (*)
+  under symbol t_leftbracket
+  Resolved in favor of shifting.
+
+Warning : *** Shift/Reduce conflict found in state #64
+  between Type ::= t_id (*)
+  and     Call ::= t_id (*) t_period t_id t_leftparen Actuals t_rightparen
+  under symbol t_period
+  Resolved in favor of shifting.
+
+Warning : *** Shift/Reduce conflict found in state #64
+  between Type ::= t_id (*)
+  under symbol t_leftbracket
+  Resolved in favor of shifting.
+
+Warning : *** Shift/Reduce conflict found in state #145
+  between IfStmt ::= t_if t_leftparen Expr t_rightparen Stmt (*)
+  and     IfStmt ::= t_if t_leftparen Expr t_rightparen Stmt (*) t_else Stmt
+  under symbol t_else
+  Resolved in favor of shifting.
+
+Warning : *** Shift/Reduce conflict found in state #83
+  between Lvalue ::= t_id (*)
+  and     Call ::= t_id (*) t_period t_id t_leftparen Actuals t_rightparen
+  under symbol t_period
+  Resolved in favor of shifting.
+
+------- CUP v0.11a beta 20060608 Parser Generation Summary -------
+  0 errors and 7 warnings
+  46 terminals, 34 non-terminals, and 90 productions declared,
+  producing 184 unique parse states.
+  0 terminals declared but not used.
+  0 non-terminals declared but not used.
+  0 productions never reduced.
+  7 conflicts detected (50 expected).
+  Code written to "parser.java", and "sym.java".
+---------------------------------------------------- (v0.11a beta 20060608)
