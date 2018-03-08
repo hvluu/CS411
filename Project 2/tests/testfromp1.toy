@@ -4,7 +4,7 @@ int fact (int x) {
    else return 1;
 }
 void main () {
-/* Winter Quarter 2013
+/* Winter Quarter 2018
 CS 411 project #1
 A lexical analyzer */
    int x;
